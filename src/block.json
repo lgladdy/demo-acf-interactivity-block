@@ -1,0 +1,18 @@
+{
+	"name": "acf-interactive-block",
+	"version": "0.1.0",
+	"title": "Acf Interactive Block",
+	"category": "widgets",
+	"icon": "media-interactive",
+	"description": "An interactive block with the Interactivity API",
+	"example": {},
+	"supports": {
+		"interactivity": true
+	},
+	"acf": {
+        "renderTemplate": "template.php"
+	},
+	"textdomain": "acf-interactive-block",
+	"style": "file:./style-view.css",
+	"viewScriptModule": "file:./view.js"
+}
